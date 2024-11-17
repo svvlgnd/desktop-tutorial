@@ -1,110 +1,129 @@
-# linux
+# Linux Terminal Komutları
 
-Bu projede, temel Windows CMD (Command Prompt) komutları örneklerini ve açıklamalarını bulabilirsiniz. Komutlar, yeni başlayanlar için öğrenmesi kolay ve işlevsel olacak şekilde seçilmiştir.
+Bu projede en çok kullanılan linux terminal komutlarına yer verilmiştir.
 
----
-
-## **Komutlar ve Açıklamaları**
-
-## 1.***Cd***
-### Açıklama:  Geçerli Dizini Değiştir
-```cd
-cd C:\Users
+#### 1. cd Komutu
+Çalışma dizinini değiştirir.
 ```
-## 2.***Dir***
-### Açıklama:  Geçerli dizindeki dosyaların ve klasörlerin bir listesini görüntüler.
-```
-dir
-```
-## 3.***cls***
-### Açıklama: KOnsol ekranını temizler.
-```
-cls
-```
-## 4.***echo***
-### Açıklama:  Konsol ekranına Merhaba, Dünya! mesajını yazdırır.
-```
-echo Merhaba, Dünya!
-```
-## 5.***Type***
-### Açıklama:  dosya.txt adlı dosyanın içeriğini görüntüler.
-```
-type dosya.txt
-```
-## 6.***Copy***
-### Açıklama:   kaynak.txt dosyasını hedef.txt olarak kopyalar.
-```
-copy kaynak.txt hedef.txt
-```
-## 7.***mkdir***
-### Açıklama: YeniKlasor adında bir klasör oluşturur.
-```
-mkdir YeniKlasor
-```
-## 8.***Move***
-### Açıklama:  eski_ad.txt dosyasını yeni_ad.txt olarak taşır veya yeniden adlandırır.
-```
-move eski_ad.txt yeni_ad.txt
-```
-## 9.***del .***
-### Açıklama:  dosya.txt dosyasını siler.
-```
-del dosya.txt
-```
-## 10.***rmdir***
-### Açıklama: SilinecekKlasor adlı klasörü siler.
-```
-rmdir SilinecekKlasor
-```
-## 11.***systeminfo***
-### Açıklama: Bilgisayarın işletim sistemi, donanım ve ağ bilgilerini listeler.
-```
-systeminfo
-```
-## 12.***Ping.***
-### Açıklama:  Google DNS sunucusuna bir bağlantı testi gerçekleştirir.
-```
-ping 8.8.8.8
+cd
 ```
 
-## 13.***tasklist***
-### Açıklama:   Bilgisayarda çalışan tüm süreçlerin listesini görüntüler.
+#### 2. ls Komutu
+
+Klasör içindeki dosya ve dizinleri listeler.
 ```
-tasklist
+ls
 ```
-## 14.***taskkill***
-### Açıklama: notepad.exe adlı uygulamayı zorla kapatır.
+
+#### 3. pwd Komutu
+Geçerli çalışma dizinini gösterir.
 ```
-taskkill /IM notepad.exe /F
+mkdir
 ```
-## 15.***ipconfig***
-### Açıkl5ama:  Bilgisayarın ağ adaptörlerine ait IP adreslerini ve diğer bilgileri listeler.
+
+#### 4. cp Komutu
+Dosya veya dizinleri kopyalar.
+```
+cp
+```
+
+#### 5. mv Komutu
+Dosya veya dizinleri taşır ya da yeniden adlandırır.
+```
+mv
+```
+
+#### 6. rm Komutu
+Dosya veya dizinleri siler.
+```
+rm
+```
+
+#### 7. mkdir Komutu
+Yeni bir dizin oluşturur.
+```
+mkdir
+```
+
+#### 8. rmdir Komutu
+Boş dizinleri siler.
+```
+rmdir
+```
+
+#### 9. touch Komutu
+Yeni bir boş dosya oluşturur veya bir dosyanın tarih damgasını günceller.
+```
+touch
+```
+
+#### 10. cat Komutu
+Dosya içeriğini görüntüler veya birleştirir.
 ```
 ipconfig
 ```
-## 16.***chkdsk***
-### Açıklama:  Sabit disk üzerindeki hataları kontrol eder.
+
+#### 11. echo Komutu
+Metni terminale veya bir dosyaya yazar.
 ```
-chkdsk
+echo
 ```
-## 17.***whoami***
-### Açıklama:  Şu anda oturum açmış kullanıcı adını görüntüler.
+
+#### 12. grep Komutu
+ Dosya içeriğinde belirli bir metni arar.
 ```
-whoami
+grep
 ```
-## 18.***shutdown***
-### Açıklama:  Bilgisayarı hemen yeniden başlatır.
+
+#### 13. find Komutu
+Dosya ve dizinleri arar.
 ```
-shutdown /r /t 0
+find
 ```
-## 19.***time date***
-### Açıklama: Konsolda sistemin mevcut saatini ve tarihini görüntüler veya değiştirmenizi sağlar.
+
+#### 14. chmod Komutu
+Dosya izinlerini değiştirir.
 ```
-time
-date
+chmod
 ```
-## 20.***dir *.txt /s***
-### Açıklama: Geçerli klasör ve alt klasörlerde .txt uzantılı dosyaları arar.
+
+#### 15. chown Komutu
+Dosya veya dizin sahibini değiştirir.
 ```
-dir *.txt /s
+chown
 ```
+
+#### 16. ps Komutu
+Çalışan işlemleri listeler.
+```
+ps
+```
+
+#### 17. kill Komutu
+Bir işlemi sonlandırır.
+```
+kill
+```
+
+#### 18. df Komutu
+Disk kullanımını gösterir
+```
+df
+```
+
+#### 19. top Komutu
+Sistem performansını ve çalışan işlemleri canlı olarak görüntüler.
+```
+top
+```
+
+#### 20. tar Komutu
+Dosyaları sıkıştırır veya açar.
+```
+tar
+```
+
+
+
+
+
