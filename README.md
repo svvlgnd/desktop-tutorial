@@ -7,18 +7,18 @@ Bu projede en çok kullanılan linux terminal komutlarına yer verilmiştir.
 ```
 cd
 ```
-
+![mkdir](https://github.com/user-attachments/assets/56dfb53a-619c-4277-be49-7db89eec0fcd)
 #### 2. ls Komutu
 
 Klasör içindeki dosya ve dizinleri listeler.
 ```
 ls
 ```
-
+![Ekran görüntüsü 2024-11-17 172546](https://github.com/user-attachments/assets/7afbe5ca-a5f7-45fd-9abd-1a7f7a39e31c)
 #### 3. pwd Komutu
 Geçerli çalışma dizinini gösterir.
 ```
-mkdir
+pwd
 ```
 
 #### 4. cp Komutu
